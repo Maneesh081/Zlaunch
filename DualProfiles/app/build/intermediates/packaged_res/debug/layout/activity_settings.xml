@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:background="@color/bg_deep" android:fillViewport="true">
+<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="24dp">
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Settings" android:textColor="@color/text_primary" android:textSize="28sp" android:textStyle="bold" android:fontFamily="sans-serif-light" />
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Customize your launcher" android:textColor="@color/text_muted" android:textSize="14sp" android:layout_marginTop="4dp" />
+
+<Button android:id="@+id/btnSelectApps" android:layout_width="match_parent" android:layout_height="56dp" android:text="Select Home Apps" android:textColor="@color/bg_deep" android:textSize="16sp" android:textAllCaps="false" android:background="@drawable/bg_accent_button" android:layout_marginTop="32dp" />
+
+<com.google.android.material.switchmaterial.SwitchMaterial android:id="@+id/switchFocus" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Focus Mode" android:textColor="@color/text_secondary" android:layout_marginTop="20dp" android:padding="16dp" />
+
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="WALLPAPER" android:textColor="@color/text_muted" android:textSize="11sp" android:letterSpacing="0.1" android:layout_marginTop="24dp" />
+<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_marginTop="8dp">
+<Button android:id="@+id/btnWallpaper" android:layout_width="0dp" android:layout_height="48dp" android:layout_weight="1" android:text="Pick Wallpaper" android:textColor="@color/accent_green" android:textAllCaps="false" style="@style/Widget.MaterialComponents.Button.OutlinedButton" android:layout_marginEnd="8dp" />
+<Button android:id="@+id/btnClearWallpaper" android:layout_width="wrap_content" android:layout_height="48dp" android:text="Clear" android:textColor="@color/text_muted" android:textAllCaps="false" style="@style/Widget.MaterialComponents.Button.TextButton" />
+</LinearLayout>
+
+<TextView android:id="@+id/textBrightness" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Brightness: 60%" android:textColor="@color/text_secondary" android:textSize="14sp" android:layout_marginTop="16dp" />
+<SeekBar android:id="@+id/seekBrightness" android:layout_width="match_parent" android:layout_height="wrap_content" android:max="100" android:progress="60" android:layout_marginTop="8dp" />
+
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="CLOCK STYLE" android:textColor="@color/text_muted" android:textSize="11sp" android:letterSpacing="0.1" android:layout_marginTop="24dp" />
+<RadioGroup android:id="@+id/rgClockStyle" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp">
+<RadioButton android:id="@+id/rbThin" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Thin (default)" android:textColor="@color/text_primary" android:padding="10dp" />
+<RadioButton android:id="@+id/rbLight" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Light" android:textColor="@color/text_primary" android:padding="10dp" />
+<RadioButton android:id="@+id/rbBold" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Bold" android:textColor="@color/text_primary" android:padding="10dp" />
+<RadioButton android:id="@+id/rbMono" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Monospace" android:textColor="@color/text_primary" android:padding="10dp" />
+<RadioButton android:id="@+id/rbDigital" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Digital (large)" android:textColor="@color/text_primary" android:padding="10dp" />
+</RadioGroup>
+
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="CLOCK COLOR" android:textColor="@color/text_muted" android:textSize="11sp" android:letterSpacing="0.1" android:layout_marginTop="24dp" />
+<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_marginTop="8dp">
+<Button android:id="@+id/btnColorWhite" android:layout_width="48dp" android:layout_height="48dp" android:background="#F5F5F5" android:layout_marginEnd="8dp" />
+<Button android:id="@+id/btnColorGreen" android:layout_width="48dp" android:layout_height="48dp" android:background="#00E676" android:layout_marginEnd="8dp" />
+<Button android:id="@+id/btnColorRed" android:layout_width="48dp" android:layout_height="48dp" android:background="#FF5252" android:layout_marginEnd="8dp" />
+<Button android:id="@+id/btnColorBlue" android:layout_width="48dp" android:layout_height="48dp" android:background="#448AFF" android:layout_marginEnd="8dp" />
+<Button android:id="@+id/btnColorYellow" android:layout_width="48dp" android:layout_height="48dp" android:background="#FFD740" android:layout_marginEnd="8dp" />
+<Button android:id="@+id/btnColorPink" android:layout_width="48dp" android:layout_height="48dp" android:background="#FF80AB" />
+</LinearLayout>
+
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="WIDGET" android:textColor="@color/text_muted" android:textSize="11sp" android:letterSpacing="0.1" android:layout_marginTop="24dp" />
+<Button android:id="@+id/btnWidget" android:layout_width="match_parent" android:layout_height="48dp" android:text="Add Widget" android:textColor="@color/accent_green" android:textAllCaps="false" style="@style/Widget.MaterialComponents.Button.OutlinedButton" android:layout_marginTop="8dp" />
+
+<Button android:id="@+id/btnBack" style="@style/Widget.MaterialComponents.Button.TextButton" android:layout_width="match_parent" android:layout_height="48dp" android:text="Back" android:textColor="@color/text_muted" android:textAllCaps="false" android:layout_marginTop="24dp" />
+</LinearLayout>
+</ScrollView>

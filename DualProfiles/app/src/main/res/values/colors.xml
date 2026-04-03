@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_deep">#0A0A0A</color>
+    <color name="bg_surface">#141414</color>
+    <color name="bg_card">#1A1A1A</color>
+    <color name="text_primary">#F5F5F5</color>
+    <color name="text_secondary">#888888</color>
+    <color name="text_muted">#555555</color>
+    <color name="accent_green">#00E676</color>
+    <color name="accent_green_dim">#1A00E676</color>
+    <color name="border">#333333</color>
+</resources>

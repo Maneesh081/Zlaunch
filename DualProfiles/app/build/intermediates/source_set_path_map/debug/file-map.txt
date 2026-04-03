@@ -1,0 +1,37 @@
+com.example.zenlauncher.app-core-1.12.0-0 C:\Users\Admin\.gradle\caches\transforms-3\01be542a8a7642ecba403b94caa2bdf6\transformed\core-1.12.0\res
+com.example.zenlauncher.app-drawerlayout-1.1.1-1 C:\Users\Admin\.gradle\caches\transforms-3\225c3beaba08bee5b905ff0919dcdf23\transformed\drawerlayout-1.1.1\res
+com.example.zenlauncher.app-emoji2-1.2.0-2 C:\Users\Admin\.gradle\caches\transforms-3\2497a04ce439ba5192d483e53a542533\transformed\emoji2-1.2.0\res
+com.example.zenlauncher.app-constraintlayout-2.1.4-3 C:\Users\Admin\.gradle\caches\transforms-3\2a79237028878ecf82651907de158179\transformed\constraintlayout-2.1.4\res
+com.example.zenlauncher.app-lifecycle-viewmodel-2.7.0-4 C:\Users\Admin\.gradle\caches\transforms-3\391416446132c3f6a640c721da6d8fd5\transformed\lifecycle-viewmodel-2.7.0\res
+com.example.zenlauncher.app-profileinstaller-1.3.0-5 C:\Users\Admin\.gradle\caches\transforms-3\5f7ce29a25973535d221a2c1da52466d\transformed\profileinstaller-1.3.0\res
+com.example.zenlauncher.app-lifecycle-runtime-ktx-2.7.0-6 C:\Users\Admin\.gradle\caches\transforms-3\69621d2d0f94a188e6dddb7a7fff95d4\transformed\lifecycle-runtime-ktx-2.7.0\res
+com.example.zenlauncher.app-core-ktx-1.12.0-7 C:\Users\Admin\.gradle\caches\transforms-3\6bcb5a180b7c5ae245cf3db8b69f9a84\transformed\core-ktx-1.12.0\res
+com.example.zenlauncher.app-lifecycle-process-2.7.0-8 C:\Users\Admin\.gradle\caches\transforms-3\6cd941b5728d35bc713ca3d34665a608\transformed\lifecycle-process-2.7.0\res
+com.example.zenlauncher.app-lifecycle-livedata-core-ktx-2.7.0-9 C:\Users\Admin\.gradle\caches\transforms-3\73cefbbddc55fb382820d0a6aaeda3ea\transformed\lifecycle-livedata-core-ktx-2.7.0\res
+com.example.zenlauncher.app-savedstate-1.2.1-10 C:\Users\Admin\.gradle\caches\transforms-3\7591184b4e14fbc0b911fe042afac8fc\transformed\savedstate-1.2.1\res
+com.example.zenlauncher.app-cardview-1.0.0-11 C:\Users\Admin\.gradle\caches\transforms-3\7699407632c8565d1473dd4abc2f238b\transformed\cardview-1.0.0\res
+com.example.zenlauncher.app-lifecycle-livedata-2.7.0-12 C:\Users\Admin\.gradle\caches\transforms-3\80ad4911834ffd0fcbe625bac5b97fa9\transformed\lifecycle-livedata-2.7.0\res
+com.example.zenlauncher.app-lifecycle-livedata-core-2.7.0-13 C:\Users\Admin\.gradle\caches\transforms-3\87e3063b4d5fa080a3d860cfb5fce3be\transformed\lifecycle-livedata-core-2.7.0\res
+com.example.zenlauncher.app-customview-poolingcontainer-1.0.0-14 C:\Users\Admin\.gradle\caches\transforms-3\95a60d7fd29a45ee5b16a596ab57b607\transformed\customview-poolingcontainer-1.0.0\res
+com.example.zenlauncher.app-recyclerview-1.3.2-15 C:\Users\Admin\.gradle\caches\transforms-3\9a450142c94966ce51ef0d69e18ba8b3\transformed\recyclerview-1.3.2\res
+com.example.zenlauncher.app-coordinatorlayout-1.1.0-16 C:\Users\Admin\.gradle\caches\transforms-3\a5632da62af1d1eb2a83a64d3736fa95\transformed\coordinatorlayout-1.1.0\res
+com.example.zenlauncher.app-core-runtime-2.2.0-17 C:\Users\Admin\.gradle\caches\transforms-3\a596724fd6d30d8f96db7f6fc822a20f\transformed\core-runtime-2.2.0\res
+com.example.zenlauncher.app-transition-1.2.0-18 C:\Users\Admin\.gradle\caches\transforms-3\a5cab403d72b704056355876abf3519f\transformed\transition-1.2.0\res
+com.example.zenlauncher.app-startup-runtime-1.1.1-19 C:\Users\Admin\.gradle\caches\transforms-3\a8bb623963dccfbaf142c4cc7cd79c07\transformed\startup-runtime-1.1.1\res
+com.example.zenlauncher.app-emoji2-views-helper-1.2.0-20 C:\Users\Admin\.gradle\caches\transforms-3\bcc17701914a9dc7c110de79b7f7c313\transformed\emoji2-views-helper-1.2.0\res
+com.example.zenlauncher.app-appcompat-1.6.1-21 C:\Users\Admin\.gradle\caches\transforms-3\bd4b3a0f9ce03c46acf898a6cf446411\transformed\appcompat-1.6.1\res
+com.example.zenlauncher.app-material-1.11.0-22 C:\Users\Admin\.gradle\caches\transforms-3\c006c7e4abea24f449d8c80c9e056f58\transformed\material-1.11.0\res
+com.example.zenlauncher.app-lifecycle-viewmodel-savedstate-2.7.0-23 C:\Users\Admin\.gradle\caches\transforms-3\c17406ad82f850371e197ab6751d2559\transformed\lifecycle-viewmodel-savedstate-2.7.0\res
+com.example.zenlauncher.app-lifecycle-runtime-2.7.0-24 C:\Users\Admin\.gradle\caches\transforms-3\cc269b482257343e7677caefd82573f4\transformed\lifecycle-runtime-2.7.0\res
+com.example.zenlauncher.app-annotation-experimental-1.3.0-25 C:\Users\Admin\.gradle\caches\transforms-3\d2dd9ba6197a97326b46e103e8445e96\transformed\annotation-experimental-1.3.0\res
+com.example.zenlauncher.app-fragment-1.3.6-26 C:\Users\Admin\.gradle\caches\transforms-3\f10e4dcb93a122529ce36e963c4b7a34\transformed\fragment-1.3.6\res
+com.example.zenlauncher.app-activity-1.8.0-27 C:\Users\Admin\.gradle\caches\transforms-3\f1b556d4e2fb923011b12cae8e98c969\transformed\activity-1.8.0\res
+com.example.zenlauncher.app-viewpager2-1.1.0-beta02-28 C:\Users\Admin\.gradle\caches\transforms-3\fab50247cd01bfcf8f7ba73d8a8f16e4\transformed\viewpager2-1.1.0-beta02\res
+com.example.zenlauncher.app-appcompat-resources-1.6.1-29 C:\Users\Admin\.gradle\caches\transforms-3\fdf7cb61aa48a697a9df8fc1913e04bc\transformed\appcompat-resources-1.6.1\res
+com.example.zenlauncher.app-pngs-30 C:\Users\Admin\OneDrive\Desktop\dual profiles\DualProfiles\app\build\generated\res\pngs\debug
+com.example.zenlauncher.app-resValues-31 C:\Users\Admin\OneDrive\Desktop\dual profiles\DualProfiles\app\build\generated\res\resValues\debug
+com.example.zenlauncher.app-packageDebugResources-32 C:\Users\Admin\OneDrive\Desktop\dual profiles\DualProfiles\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.zenlauncher.app-packageDebugResources-33 C:\Users\Admin\OneDrive\Desktop\dual profiles\DualProfiles\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.zenlauncher.app-merged_res-34 C:\Users\Admin\OneDrive\Desktop\dual profiles\DualProfiles\app\build\intermediates\merged_res\debug
+com.example.zenlauncher.app-debug-35 C:\Users\Admin\OneDrive\Desktop\dual profiles\DualProfiles\app\src\debug\res
+com.example.zenlauncher.app-main-36 C:\Users\Admin\OneDrive\Desktop\dual profiles\DualProfiles\app\src\main\res

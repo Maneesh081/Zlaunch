@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "com.example.zenlauncher.app-merged_res-34:/drawable_bg_card.xml.flat",
+        "source": "com.example.zenlauncher.app-main-36:/drawable/bg_card.xml"
+    },
+    {
+        "merged": "com.example.zenlauncher.app-merged_res-34:/layout_activity_main.xml.flat",
+        "source": "com.example.zenlauncher.app-main-36:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.zenlauncher.app-merged_res-34:/drawable_bg_accent_button.xml.flat",
+        "source": "com.example.zenlauncher.app-main-36:/drawable/bg_accent_button.xml"
+    },
+    {
+        "merged": "com.example.zenlauncher.app-merged_res-34:/layout_item_app_list.xml.flat",
+        "source": "com.example.zenlauncher.app-main-36:/layout/item_app_list.xml"
+    },
+    {
+        "merged": "com.example.zenlauncher.app-merged_res-34:/drawable_bg_app_item.xml.flat",
+        "source": "com.example.zenlauncher.app-main-36:/drawable/bg_app_item.xml"
+    },
+    {
+        "merged": "com.example.zenlauncher.app-merged_res-34:/layout_activity_app_selection.xml.flat",
+        "source": "com.example.zenlauncher.app-main-36:/layout/activity_app_selection.xml"
+    },
+    {
+        "merged": "com.example.zenlauncher.app-merged_res-34:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.zenlauncher.app-main-36:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.zenlauncher.app-merged_res-34:/drawable_bg_focus_overlay.xml.flat",
+        "source": "com.example.zenlauncher.app-main-36:/drawable/bg_focus_overlay.xml"
+    },
+    {
+        "merged": "com.example.zenlauncher.app-merged_res-34:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.zenlauncher.app-main-36:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.zenlauncher.app-merged_res-34:/layout_activity_settings.xml.flat",
+        "source": "com.example.zenlauncher.app-main-36:/layout/activity_settings.xml"
+    }
+]
