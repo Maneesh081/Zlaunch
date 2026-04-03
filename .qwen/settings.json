@@ -3,7 +3,16 @@
     "allow": [
       "Bash(git remote *)",
       "Bash(git add *)",
-      "Bash(git commit *)"
+      "Bash(git commit *)",
+      "Bash(git push *)",
+      "Bash(gradlew.bat *)",
+      "Bash(dir *)",
+      "Bash(java *)",
+      "Bash(powershell *)",
+      "Bash(gh *)",
+      "Bash(curl *)",
+      "Bash(move *)",
+      "Bash(git rm *)"
     ]
   },
   "$version": 3
