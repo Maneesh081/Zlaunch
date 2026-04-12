@@ -49,6 +49,12 @@ Z Launcher replaces your default home screen with a clean, calm interface design
 - Choose which apps appear on your home screen
 - Only essential apps, nothing else
 
+### Switch to Default Launcher
+- Password-protected button in Settings to exit Z Launcher
+- First use: set a password (with confirmation)
+- Subsequent uses: enter password to authenticate
+- On success: opens the system home picker so you can switch back to your default launcher
+
 ## How to Use
 
 1. **Open Z Launcher** from your app drawer
@@ -59,6 +65,7 @@ Z Launcher replaces your default home screen with a clean, calm interface design
 6. **Add a Widget** — optional
 7. **Arrange** — long press and drag any element to your preferred position
 8. **Focus Mode** — tap the clock icon (bottom left) to enter focus mode
+9. **Switch to Default Launcher** — enter your password to exit Z Launcher and return to your previous launcher
 
 ### Set as Default Launcher
 1. Settings → Apps → Default apps → Home app
@@ -84,6 +91,7 @@ Z Launcher replaces your default home screen with a clean, calm interface design
 │   │   │   ├── AppSelectionActivity.kt  # Choose which apps appear
 │   │   │   ├── SettingsActivity.kt      # Wallpaper, clock, brightness, widget settings
 │   │   │   ├── WidgetPickerActivity.kt  # Pick a widget to add
+│   │   │   ├── PasswordAuthActivity.kt  # Password protection for switching launcher
 │   │   │   ├── adapter/
 │   │   │   │   └── AppListAdapter.kt    # RecyclerView adapter
 │   │   │   ├── data/
@@ -100,6 +108,7 @@ Z Launcher replaces your default home screen with a clean, calm interface design
 │   │   │   │   ├── activity_main.xml        # Home screen layout
 │   │   │   │   ├── activity_settings.xml    # Settings layout
 │   │   │   │   ├── activity_app_selection.xml
+│   │   │   │   ├── activity_password_auth.xml  # Password auth screen layout
 │   │   │   │   └── item_app_list.xml
 │   │   │   ├── values/
 │   │   │   │   ├── colors.xml
