@@ -17,6 +17,7 @@ class SettingsActivity : AppCompatActivity() {
 
     companion object {
         private const val REQ_WP = 4001
+        private const val REQ_AUTH = 4002
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -103,6 +104,12 @@ class SettingsActivity : AppCompatActivity() {
             startActivity(Intent(this, WidgetPickerActivity::class.java))
         }
 
+        // Switch to Default Launcher
+        findViewById<Button>(R.id.btnSwitchLauncher).setOnClickListener {
+            val i = Intent(this, PasswordAuthActivity::class.java)
+            startActivityForResult(i, REQ_AUTH)
+        }
+
         findViewById<Button>(R.id.btnBack).setOnClickListener { finish() }
     }
 
@@ -124,6 +131,10 @@ class SettingsActivity : AppCompatActivity() {
             } catch (e: Exception) {
                 Toast.makeText(this, "Failed: ${e.message}", Toast.LENGTH_SHORT).show()
             }
+        }
+        if (req == REQ_AUTH && res == PasswordAuthActivity.RESULT_AUTH_SUCCESS) {
+            // User authenticated - finish settings activity so default launcher can take over
+            finish()
         }
     }
 }

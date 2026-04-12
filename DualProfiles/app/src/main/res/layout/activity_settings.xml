@@ -39,6 +39,9 @@
 <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="WIDGET" android:textColor="@color/text_muted" android:textSize="11sp" android:letterSpacing="0.1" android:layout_marginTop="24dp" />
 <Button android:id="@+id/btnWidget" android:layout_width="match_parent" android:layout_height="48dp" android:text="Add Widget" android:textColor="@color/accent_green" android:textAllCaps="false" style="@style/Widget.MaterialComponents.Button.OutlinedButton" android:layout_marginTop="8dp" />
 
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="LAUNCHER" android:textColor="@color/text_muted" android:textSize="11sp" android:letterSpacing="0.1" android:layout_marginTop="24dp" />
+<Button android:id="@+id/btnSwitchLauncher" android:layout_width="match_parent" android:layout_height="56dp" android:text="Switch to Default Launcher" android:textColor="@color/bg_deep" android:textSize="16sp" android:textAllCaps="false" android:background="@drawable/bg_accent_button" android:layout_marginTop="8dp" />
+
 <Button android:id="@+id/btnBack" style="@style/Widget.MaterialComponents.Button.TextButton" android:layout_width="match_parent" android:layout_height="48dp" android:text="Back" android:textColor="@color/text_muted" android:textAllCaps="false" android:layout_marginTop="24dp" />
 </LinearLayout>
 </ScrollView>

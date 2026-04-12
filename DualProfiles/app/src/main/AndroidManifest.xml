@@ -38,5 +38,11 @@
             android:theme="@style/Theme.ZenLauncher" />
 
             <activity android:name=".WidgetPickerActivity" android:exported="false" android:theme="@style/Theme.ZenLauncher" />
+
+        <!-- Password Authentication for switching launcher -->
+        <activity
+            android:name=".PasswordAuthActivity"
+            android:exported="false"
+            android:theme="@style/Theme.ZenLauncher" />
     </application>
 </manifest>

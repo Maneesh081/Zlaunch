@@ -39,4 +39,9 @@ object PreferenceHelper {
     fun getQuoteX(c: Context): Float = prefs(c).getFloat("quote_x", -1f)
     fun getQuoteY(c: Context): Float = prefs(c).getFloat("quote_y", -1f)
     fun setQuotePos(c: Context, x: Float, y: Float) { prefs(c).edit().putFloat("quote_x", x).putFloat("quote_y", y).apply() }
+
+    // Password for switching to default launcher
+    fun getSwitchPassword(c: Context): String = prefs(c).getString("switch_password", "") ?: ""
+    fun setSwitchPassword(c: Context, p: String) { prefs(c).edit().putString("switch_password", p).apply() }
+    fun isSwitchPasswordSet(c: Context): Boolean = getSwitchPassword(c).isNotEmpty()
 }
