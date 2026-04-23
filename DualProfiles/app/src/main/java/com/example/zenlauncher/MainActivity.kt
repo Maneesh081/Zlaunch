@@ -19,7 +19,7 @@ import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
-import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.zenlauncher.adapter.AppListAdapter
 import com.example.zenlauncher.data.AppRepository
@@ -93,11 +93,12 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun setupRV() {
-        adapter = AppListAdapter(emptyList()){pkg -> packageManager.getLaunchIntentForPackage(pkg.packageName)?.let{startActivity(it)}}
-        recyclerApps.layoutManager = LinearLayoutManager(this)
+        adapter = AppListAdapter{pkg -> packageManager.getLaunchIntentForPackage(pkg.packageName)?.let{startActivity(it)}}
+        recyclerApps.layoutManager = GridLayoutManager(this, 3)
+        recyclerApps.setHasFixedSize(true)
         recyclerApps.adapter = adapter
     }
-    private fun loadApps() { adapter.updateList(AppRepository.getSelectedApps(this)) }
+    private fun loadApps() { adapter.updateApps(AppRepository.getSelectedApps(this)) }
 
     // ALL ELEMENTS DRAGGABLE
     private fun setupAllDrag() {

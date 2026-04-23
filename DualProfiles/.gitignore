@@ -1,0 +1,30 @@
+# Build artifacts
+build/
+.gradle/
+*.apk
+*.ap_
+gradle/wrapper/gradle-wrapper.jar
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# OS-specific
+explanation.txt
+nul
+*.ps1

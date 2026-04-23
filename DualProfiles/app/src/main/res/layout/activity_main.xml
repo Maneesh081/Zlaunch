@@ -27,11 +27,11 @@
     <FrameLayout android:id="@+id/widgetArea" android:layout_width="wrap_content" android:layout_height="wrap_content" android:visibility="gone" android:elevation="4dp" />
 
     <!-- Floating App List (DRAGGABLE) -->
-    <LinearLayout android:id="@+id/floatingAppList" android:layout_width="240dp" android:layout_height="wrap_content" android:orientation="vertical" android:elevation="4dp" android:background="#33000000">
+    <LinearLayout android:id="@+id/floatingAppList" android:layout_width="280dp" android:layout_height="wrap_content" android:orientation="vertical" android:elevation="4dp" android:background="#33000000">
         <LinearLayout android:id="@+id/dragHandle" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center_vertical" android:paddingStart="14dp" android:paddingEnd="14dp" android:paddingTop="12dp" android:paddingBottom="12dp" android:background="#00000000">
             <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="Apps" android:textColor="@color/text_muted" android:textSize="12sp" android:fontFamily="sans-serif-medium" android:letterSpacing="0.1" />
         </LinearLayout>
-        <androidx.recyclerview.widget.RecyclerView android:id="@+id/recyclerApps" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxHeight="400dp" android:clipToPadding="false" android:paddingStart="8dp" android:paddingEnd="8dp" android:paddingBottom="8dp" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@+id/recyclerApps" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxHeight="400dp" android:clipToPadding="false" android:paddingStart="4dp" android:paddingEnd="4dp" android:paddingBottom="8dp" />
     </LinearLayout>
 
     <!-- Focus Mode Overlay -->
